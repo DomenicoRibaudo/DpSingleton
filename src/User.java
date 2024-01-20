@@ -1,3 +1,5 @@
+package src;
+
 public class User {
     private String name;
 
@@ -5,7 +7,7 @@ public class User {
 
     private static User instance;
 
-    public User() {}
+    private User() {}
 
 
     // Metodo per ottenere l'unica istanza della classe User
